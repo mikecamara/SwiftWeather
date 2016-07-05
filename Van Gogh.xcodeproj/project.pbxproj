@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189A137D1C7F58AA00D04DB8 /* Assets 23-42-16-585.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A137C1C7F58AA00D04DB8 /* Assets 23-42-16-585.xcassets */; };
+		18D2C7D81BD53C3E00FB4290 /* WeeklyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C7D71BD53C3E00FB4290 /* WeeklyTableViewController.swift */; };
+		18D2C7DA1BD540A200FB4290 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C7D91BD540A200FB4290 /* BackgroundView.swift */; };
+		18D2C7DD1BD7CE8B00FB4290 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C7DC1BD7CE8B00FB4290 /* DailyWeather.swift */; };
+		18D2C7DF1BD7E40700FB4290 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C7DE1BD7E40700FB4290 /* Icon.swift */; };
+		18D2C7E11BD7EEF200FB4290 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C7E01BD7EEF200FB4290 /* Forecast.swift */; };
+		18D2C7E31BD8081600FB4290 /* DailyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C7E21BD8081600FB4290 /* DailyWeatherTableViewCell.swift */; };
+		18D2C7E51BD8B7C400FB4290 /* DetailBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C7E41BD8B7C400FB4290 /* DetailBackgroundView.swift */; };
+		18DA50C61BCDEC590004405C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA50C51BCDEC590004405C /* AppDelegate.swift */; };
+		18DA50C81BCDEC590004405C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA50C71BCDEC590004405C /* ViewController.swift */; };
+		18DA50CB1BCDEC590004405C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA50C91BCDEC590004405C /* Main.storyboard */; };
+		18DA50D01BCDEC590004405C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA50CE1BCDEC590004405C /* LaunchScreen.storyboard */; };
+		18DA50DB1BCDEC590004405C /* Van_GoghTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA50DA1BCDEC590004405C /* Van_GoghTests.swift */; };
+		18DA50E81BCDEEF50004405C /* CurrentWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18DA50E71BCDEEF50004405C /* CurrentWeather.plist */; };
+		18DA50EA1BCDF0700004405C /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA50E91BCDF0700004405C /* CurrentWeather.swift */; };
+		18DA50EC1BCF43F60004405C /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA50EB1BCF43F60004405C /* NetworkOperation.swift */; };
+		18DA50EE1BCF61620004405C /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA50ED1BCF61620004405C /* ForecastService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DA50D71BCDEC590004405C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DA50BA1BCDEC580004405C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DA50C11BCDEC590004405C;
+			remoteInfo = "Van Gogh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189A137C1C7F58AA00D04DB8 /* Assets 23-42-16-585.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 23-42-16-585.xcassets"; sourceTree = "<group>"; };
+		18D2C7D71BD53C3E00FB4290 /* WeeklyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewController.swift; sourceTree = "<group>"; };
+		18D2C7D91BD540A200FB4290 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		18D2C7DC1BD7CE8B00FB4290 /* DailyWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		18D2C7DE1BD7E40700FB4290 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		18D2C7E01BD7EEF200FB4290 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		18D2C7E21BD8081600FB4290 /* DailyWeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		18D2C7E41BD8B7C400FB4290 /* DetailBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBackgroundView.swift; sourceTree = "<group>"; };
+		18DA50C21BCDEC590004405C /* Van Gogh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Van Gogh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DA50C51BCDEC590004405C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DA50C71BCDEC590004405C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18DA50CA1BCDEC590004405C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DA50CF1BCDEC590004405C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DA50D11BCDEC590004405C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DA50D61BCDEC590004405C /* Van GoghTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Van GoghTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DA50DA1BCDEC590004405C /* Van_GoghTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Van_GoghTests.swift; sourceTree = "<group>"; };
+		18DA50DC1BCDEC590004405C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DA50E71BCDEEF50004405C /* CurrentWeather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CurrentWeather.plist; sourceTree = "<group>"; };
+		18DA50E91BCDF0700004405C /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		18DA50EB1BCF43F60004405C /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		18DA50ED1BCF61620004405C /* ForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DA50BF1BCDEC590004405C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA50D31BCDEC590004405C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D2C7D41BD53BA300FB4290 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18DA50C71BCDEC590004405C /* ViewController.swift */,
+				18D2C7D71BD53C3E00FB4290 /* WeeklyTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		18D2C7D51BD53BAC00FB4290 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18DA50CE1BCDEC590004405C /* LaunchScreen.storyboard */,
+				18DA50C91BCDEC590004405C /* Main.storyboard */,
+				18D2C7D91BD540A200FB4290 /* BackgroundView.swift */,
+				18D2C7E21BD8081600FB4290 /* DailyWeatherTableViewCell.swift */,
+				18D2C7E41BD8B7C400FB4290 /* DetailBackgroundView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		18D2C7D61BD53BB200FB4290 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18D2C7DB1BD7CE5700FB4290 /* Weather */,
+				18DA50EB1BCF43F60004405C /* NetworkOperation.swift */,
+				18DA50ED1BCF61620004405C /* ForecastService.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		18D2C7DB1BD7CE5700FB4290 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				18DA50E91BCDF0700004405C /* CurrentWeather.swift */,
+				18D2C7DC1BD7CE8B00FB4290 /* DailyWeather.swift */,
+				18D2C7DE1BD7E40700FB4290 /* Icon.swift */,
+				18D2C7E01BD7EEF200FB4290 /* Forecast.swift */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		18DA50B91BCDEC580004405C = {
+			isa = PBXGroup;
+			children = (
+				18DA50C41BCDEC590004405C /* Van Gogh */,
+				18DA50D91BCDEC590004405C /* Van GoghTests */,
+				18DA50C31BCDEC590004405C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DA50C31BCDEC590004405C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DA50C21BCDEC590004405C /* Van Gogh.app */,
+				18DA50D61BCDEC590004405C /* Van GoghTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DA50C41BCDEC590004405C /* Van Gogh */ = {
+			isa = PBXGroup;
+			children = (
+				189A137C1C7F58AA00D04DB8 /* Assets 23-42-16-585.xcassets */,
+				18D2C7D61BD53BB200FB4290 /* Models */,
+				18D2C7D51BD53BAC00FB4290 /* Views */,
+				18D2C7D41BD53BA300FB4290 /* Controllers */,
+				18DA50C51BCDEC590004405C /* AppDelegate.swift */,
+				18DA50D11BCDEC590004405C /* Info.plist */,
+				18DA50E71BCDEEF50004405C /* CurrentWeather.plist */,
+			);
+			path = "Van Gogh";
+			sourceTree = "<group>";
+		};
+		18DA50D91BCDEC590004405C /* Van GoghTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DA50DA1BCDEC590004405C /* Van_GoghTests.swift */,
+				18DA50DC1BCDEC590004405C /* Info.plist */,
+			);
+			path = "Van GoghTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DA50C11BCDEC590004405C /* Van Gogh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DA50DF1BCDEC590004405C /* Build configuration list for PBXNativeTarget "Van Gogh" */;
+			buildPhases = (
+				18DA50BE1BCDEC590004405C /* Sources */,
+				18DA50BF1BCDEC590004405C /* Frameworks */,
+				18DA50C01BCDEC590004405C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Van Gogh";
+			productName = "Van Gogh";
+			productReference = 18DA50C21BCDEC590004405C /* Van Gogh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DA50D51BCDEC590004405C /* Van GoghTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DA50E21BCDEC590004405C /* Build configuration list for PBXNativeTarget "Van GoghTests" */;
+			buildPhases = (
+				18DA50D21BCDEC590004405C /* Sources */,
+				18DA50D31BCDEC590004405C /* Frameworks */,
+				18DA50D41BCDEC590004405C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DA50D81BCDEC590004405C /* PBXTargetDependency */,
+			);
+			name = "Van GoghTests";
+			productName = "Van GoghTests";
+			productReference = 18DA50D61BCDEC590004405C /* Van GoghTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DA50BA1BCDEC580004405C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mike Camara";
+				TargetAttributes = {
+					18DA50C11BCDEC590004405C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CLN622EQ5G;
+					};
+					18DA50D51BCDEC590004405C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CLN622EQ5G;
+						TestTargetID = 18DA50C11BCDEC590004405C;
+					};
+				};
+			};
+			buildConfigurationList = 18DA50BD1BCDEC580004405C /* Build configuration list for PBXProject "Van Gogh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DA50B91BCDEC580004405C;
+			productRefGroup = 18DA50C31BCDEC590004405C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DA50C11BCDEC590004405C /* Van Gogh */,
+				18DA50D51BCDEC590004405C /* Van GoghTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DA50C01BCDEC590004405C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA50D01BCDEC590004405C /* LaunchScreen.storyboard in Resources */,
+				18DA50E81BCDEEF50004405C /* CurrentWeather.plist in Resources */,
+				189A137D1C7F58AA00D04DB8 /* Assets 23-42-16-585.xcassets in Resources */,
+				18DA50CB1BCDEC590004405C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA50D41BCDEC590004405C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DA50BE1BCDEC590004405C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D2C7DD1BD7CE8B00FB4290 /* DailyWeather.swift in Sources */,
+				18D2C7E31BD8081600FB4290 /* DailyWeatherTableViewCell.swift in Sources */,
+				18DA50EC1BCF43F60004405C /* NetworkOperation.swift in Sources */,
+				18D2C7E51BD8B7C400FB4290 /* DetailBackgroundView.swift in Sources */,
+				18DA50C81BCDEC590004405C /* ViewController.swift in Sources */,
+				18D2C7DF1BD7E40700FB4290 /* Icon.swift in Sources */,
+				18D2C7E11BD7EEF200FB4290 /* Forecast.swift in Sources */,
+				18D2C7D81BD53C3E00FB4290 /* WeeklyTableViewController.swift in Sources */,
+				18D2C7DA1BD540A200FB4290 /* BackgroundView.swift in Sources */,
+				18DA50EA1BCDF0700004405C /* CurrentWeather.swift in Sources */,
+				18DA50EE1BCF61620004405C /* ForecastService.swift in Sources */,
+				18DA50C61BCDEC590004405C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA50D21BCDEC590004405C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA50DB1BCDEC590004405C /* Van_GoghTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DA50D81BCDEC590004405C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DA50C11BCDEC590004405C /* Van Gogh */;
+			targetProxy = 18DA50D71BCDEC590004405C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DA50C91BCDEC590004405C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DA50CA1BCDEC590004405C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DA50CE1BCDEC590004405C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DA50CF1BCDEC590004405C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DA50DD1BCDEC590004405C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DA50DE1BCDEC590004405C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DA50E01BCDEC590004405C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Van Gogh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeios.Van-Gogh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18DA50E11BCDEC590004405C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Van Gogh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeios.Van-Gogh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18DA50E31BCDEC590004405C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Van GoghTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeios.Van-GoghTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Van Gogh.app/Van Gogh";
+			};
+			name = Debug;
+		};
+		18DA50E41BCDEC590004405C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Van GoghTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeios.Van-GoghTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Van Gogh.app/Van Gogh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DA50BD1BCDEC580004405C /* Build configuration list for PBXProject "Van Gogh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA50DD1BCDEC590004405C /* Debug */,
+				18DA50DE1BCDEC590004405C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DA50DF1BCDEC590004405C /* Build configuration list for PBXNativeTarget "Van Gogh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA50E01BCDEC590004405C /* Debug */,
+				18DA50E11BCDEC590004405C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DA50E21BCDEC590004405C /* Build configuration list for PBXNativeTarget "Van GoghTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA50E31BCDEC590004405C /* Debug */,
+				18DA50E41BCDEC590004405C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DA50BA1BCDEC580004405C /* Project object */;
+}
